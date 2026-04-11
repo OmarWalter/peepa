@@ -181,7 +181,7 @@
             <input
               type="text"
               value="0x4fcd667cbb0827a8947cd12a6e7169c25b97a22e"
-              id="copyThis-2"
+              id="copyThis-3"
             />
             <script>
               // CHANGE TEXT TO WHAT YOU WOULD LIKE IT TO CHANGE TO, WHEN A USER PRESSES THE BUTTON
@@ -191,7 +191,7 @@
                 copyLinkFunction2();
               });
               function copyLinkFunction2() {
-                var copyText = document.getElementById("copyThis-2");
+                var copyText = document.getElementById("copyThis-3");
                 copyText.select();
                 copyText.setSelectionRange(0, 99999);
                 navigator.clipboard.writeText(copyText.value);
@@ -632,44 +632,44 @@
           >
             <h2 class="heading-9">CA</h2>
             <div class="copy-from-here">
-              <div id="copyButton-2" class="copy-button">
+              <div id="copyButton-3" class="copy-button">
                 <div class="clipboard-code w-embed w-script">
                   <!--  EDIT THE VALUE BELOW  -->
                   <input
                     type="text"
                     value="0x4fcd667cbb0827a8947cd12a6e7169c25b97a22e"
-                    id="copyThis-2"
+                    id="copyThis-4"
                   />
                   <script>
                     // CHANGE TEXT TO WHAT YOU WOULD LIKE IT TO CHANGE TO, WHEN A USER PRESSES THE BUTTON
-                    var textChangesTo = "Copied to clipboard!";
+                    var textChangesToCa = "Copied to clipboard!";
                     //DO NOT EDIT
-                    $("#copyButton-2").on("click", function () {
-                      copyLinkFunction2();
+                    $("#copyButton-3").on("click", function () {
+                      copyLinkFunction3();
                     });
-                    function copyLinkFunction2() {
-                      var copyText = document.getElementById("copy-icon-2");
+                    function copyLinkFunction3() {
+                      var copyText = document.getElementById("copyThis-4");
                       copyText.select();
                       copyText.setSelectionRange(0, 99999);
                       navigator.clipboard.writeText(copyText.value);
-                      document.getElementById("change-txt-2").textContent =
-                        textChangesTo;
-                      $("#copy-icon-2").css("display", "none");
-                      $("#copy-icon-done-2").css("display", "block");
+                      document.getElementById("change-txt-3").textContent =
+                        textChangesToCa;
+                      $("#copy-icon-3").css("display", "none");
+                      $("#copy-icon-done-3").css("display", "block");
                     }
                   </script>
                 </div>
-                <p id="change-txt-2" class="c2c-txt cp">
+                <p id="change-txt-3" class="c2c-txt cp">
                   0x4fcd667cbb0827a8947cd12a6e7169c25b97a22e
                 </p>
                 <img
-                  id="copy-icon-2"
+                  id="copy-icon-3"
                   loading="lazy"
                   alt=""
                   src="images/iconmonstr-copy-8-240.png"
                   class="c2c-icon"
                 /><img
-                  id="copy-icon-done-2"
+                  id="copy-icon-done-3"
                   loading="lazy"
                   alt=""
                   src="images/iconmonstr-checkbox-21-240.png"
